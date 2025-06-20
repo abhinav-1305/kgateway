@@ -1,9 +1,5 @@
 package plugins
 
-import (
-	sdkfilters "github.com/kgateway-dev/kgateway/v2/pkg/pluginsdk/filters"
-)
-
 // The set of WellKnownFilterStages, whose order corresponds to the order used to sort filters
 // If new well known filter stages are added, they should be inserted in a position corresponding to their order
 const (
